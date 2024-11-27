@@ -1,6 +1,18 @@
-@media only screen and (max-width:1000px) {
-    body{
-        background-color:rgb(230, 91, 234);
-    }
-    h2{text-align: center;}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    background-color: pink;
+}
+.menu{
+    display: inline-flex;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 5px;
+    margin: 5px;
+}
+.menu:hover{
+    background-color: rgb(116, 76, 152);
 }
